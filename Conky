@@ -1,7 +1,0 @@
-#!/bin/bash
-
-if [ $(pidof conky) ]; then
-	kill $(pidof conky)
-else 
-	conky -o -b -d -c /home/robb/Documents/Conky/Conky\ \Launchers/conkyrc & disown
-fi
